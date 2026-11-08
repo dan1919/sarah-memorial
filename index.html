@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4efe5">
+  <title>לעילוי נשמת שרה בת מרים</title>
+  <meta name="description" content="סדר אזכרה משפחתי לעילוי נשמת שרה בת מרים">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&family=Frank+Ruhl+Libre:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --paper:#f7f3eb; --card:#fffdf8; --ink:#302b25; --muted:#756d62;
+      --gold:#a9824d; --gold-light:#e9dcc6; --line:#e8dfd1; --dark:#29251f;
+      --shadow:0 12px 35px rgba(54,42,25,.07);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:"Heebo",Arial,sans-serif;line-height:1.8}
+    a{color:#84643b;text-decoration-thickness:1px;text-underline-offset:3px}
+    .hero{min-height:390px;padding:72px 20px 58px;text-align:center;color:#f8f0e3;background:
+      radial-gradient(ellipse at 50% 0%,rgba(196,160,105,.24),transparent 55%),
+      linear-gradient(145deg,#26231f,#393128 58%,#25221e);position:relative;overflow:hidden}
+    .hero:after{content:"";position:absolute;inset:18px;border:1px solid rgba(226,204,168,.23);pointer-events:none}
+    .hero .eyebrow{color:#d6bd95;letter-spacing:.12em;font-size:.88rem}
+    h1,h2,h3{font-family:"Frank Ruhl Libre",Georgia,serif;font-weight:500;line-height:1.3}
+    h1{font-size:clamp(2.5rem,7vw,4.3rem);margin:8px 0 4px;color:#fff8ed}
+    .hero .subtitle{font-size:1.08rem;color:#e5d7c1;margin:8px 0 22px}
+    .hero .date{display:inline-block;border-top:1px solid #8e7756;border-bottom:1px solid #8e7756;padding:7px 22px;color:#ead8b8}
+    .hero .verse{font-family:"Frank Ruhl Libre",serif;font-size:1.2rem;color:#d8c5a5;margin-top:30px}
+    nav{position:sticky;top:0;z-index:5;background:rgba(247,243,235,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);padding:8px 12px;display:flex;gap:8px;overflow-x:auto;white-space:nowrap;justify-content:center}
+    nav a{font-size:.88rem;text-decoration:none;color:#665a4b;padding:5px 10px;border-radius:20px}
+    nav a:hover{background:#eee4d4}
+    main{max-width:900px;margin:0 auto;padding:28px 18px 70px}
+    section{scroll-margin-top:70px;margin:24px 0}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:clamp(20px,4vw,34px);box-shadow:var(--shadow)}
+    .section-kicker{color:var(--gold);font-size:.83rem;font-weight:600;letter-spacing:.05em}
+    h2{font-size:2rem;margin:2px 0 14px}
+    h3{font-size:1.35rem;margin:18px 0 6px}
+    p{margin:8px 0 14px}
+    .muted{color:var(--muted)}
+    .lead{font-size:1.08rem}
+    .callout{border-right:3px solid var(--gold);background:#f5efe4;padding:14px 18px;border-radius:10px;margin:18px 0}
+    .steps{counter-reset:step;list-style:none;padding:0;margin:18px 0}
+    .steps li{counter-increment:step;position:relative;padding:5px 42px 14px 0}
+    .steps li:before{content:counter(step);position:absolute;right:0;top:5px;width:28px;height:28px;border-radius:50%;background:#eee3d1;color:#785a32;text-align:center;line-height:28px;font-weight:600}
+    .letters{display:flex;flex-wrap:wrap;gap:7px;margin:14px 0}
+    .letter{background:#f0e7d9;border:1px solid #e3d5bf;border-radius:9px;padding:5px 11px;font-size:1.1rem;font-weight:600;color:#70532d}
+    .prayer-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    .prayer{border:1px solid var(--line);border-radius:13px;padding:14px;background:#fffefa}
+    .prayer strong{display:block;color:#70532d;font-size:1.04rem}
+    .prayer .text{font-family:"Frank Ruhl Libre",serif;font-size:1.12rem;line-height:1.9;margin-top:8px}
+    details{border:1px solid var(--line);border-radius:12px;padding:12px 15px;margin:10px 0;background:#fffefa}
+    summary{cursor:pointer;font-weight:600;color:#554632}
+    .small{font-size:.9rem}
+    .table-wrap{overflow-x:auto}
+    table{border-collapse:collapse;width:100%;min-width:440px;margin:12px 0}
+    th,td{border-bottom:1px solid var(--line);padding:10px;text-align:right;vertical-align:top}
+    th{color:#70532d;font-weight:600;background:#f7f1e7}
+    .memory{background:#302b25;color:#f8f0e3;border-radius:18px;padding:28px;text-align:center}
+    .memory h2{color:#f4e4c8}
+    .memory p{color:#e5d8c5}
+    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:18px}
+    .gallery figure{margin:0;aspect-ratio:4/3;background:#eee6da;border-radius:12px;overflow:hidden;position:relative}
+    .gallery img{width:100%;height:100%;object-fit:cover;display:block}
+    .gallery figcaption{position:absolute;bottom:0;right:0;left:0;padding:7px 10px;background:linear-gradient(transparent,rgba(0,0,0,.65));color:white;font-size:.85rem}
+    .empty-gallery{border:1px dashed #cbb99d;border-radius:14px;padding:28px;text-align:center;color:var(--muted);grid-column:1/-1}
+    .btn{display:inline-block;border:1px solid #b99a6c;border-radius:30px;padding:8px 17px;color:#6e512c;text-decoration:none;background:#fbf7ef;margin:4px 0}
+    .btn:hover{background:#f0e5d3}
+    footer{text-align:center;color:var(--muted);padding:25px 15px 45px;font-size:.9rem}
+    .print-only{display:none}
+    @media(max-width:600px){.hero{min-height:340px;padding-top:58px}nav{justify-content:flex-start}main{padding:16px 12px 45px}.card{border-radius:14px}}
+    @media print{
+      body{background:white;color:#111;font-size:11pt}
+      .hero{background:#fff!important;color:#111;padding:20px;border:1px solid #aaa;min-height:auto}
+      .hero h1,.hero .subtitle,.hero .date,.hero .verse,.hero .eyebrow{color:#111}
+      .hero:after,nav,.no-print,.btn{display:none!important}
+      main{max-width:none;padding:0}
+      .card{box-shadow:none;border:0;border-radius:0;padding:15px 0;break-inside:avoid}
+      section{margin:8px 0;break-inside:avoid}
+      details{break-inside:avoid}
+      details:not([open])>*:not(summary){display:block}
+      a{color:#111;text-decoration:none}
+      .memory{background:white;color:#111;border:1px solid #aaa}
+      .memory h2,.memory p{color:#111}
+      footer{padding:10px}
+    }
+  </style>
+</head>
+<body>
+<header class="hero">
+  <div class="eyebrow">לעילוי נשמת</div>
+  <h1>שרה בת מרים</h1>
+  <div class="subtitle">סדר אזכרה - נוצר ע״י דן עוגן</div>
+  <div class="date">כ״ט בכסלו תשפ״ו</div>
+  <div class="verse">״נֵר ה׳ נִשְׁמַת אָדָם״</div>
+</header>
+
+<nav aria-label="ניווט בעמוד">
+  <a href="#opening">פתיחה</a><a href="#tehillim">תהילים</a><a href="#mishnah">משניות</a>
+  <a href="#torah">דבר תורה</a><a href="#blessings">ברכות</a><a href="#memories">זיכרונות</a>
+</nav>
+
+<main>
+  <section id="opening" class="card">
+    <div class="section-kicker">מתכנסים יחד</div>
+    <h2>סדר האזכרה</h2>
+    <p class="lead">מתכנסים בני המשפחה לזכור, ללמוד ולהוסיף מעשים טובים לעילוי נשמת סבתא שרה בת מרים.</p>
+    <ol class="steps">
+      <li><strong>הדלקת נר נשמה</strong><br><span class="muted">מדליקים נר במקום בטוח, ומקדישים אותו לעילוי נשמתה.</span></li>
+      <li><strong>צדקה</strong><br><span class="muted">מי שרוצה נותן צדקה לפי יכולתו, לעילוי נשמתה.</span></li>
+      <li><strong>אמירת תהילים</strong><br><span class="muted">אותיות השם ואותיות נשמה מפרק קי״ט.</span></li>
+      <li><strong>לימוד משניות</strong><br><span class="muted">משניות אותיות נשמה ממסכת מקוואות פרק ז׳.</span></li>
+      <li><strong>דבר תורה וזיכרונות</strong><br><span class="muted">כמה מילים על האור שהשאירה אחריה, וסיפורים שכל אחד רוצה לשתף.</span></li>
+      <li><strong>כיבוד וברכות</strong><br><span class="muted">מברכים על המאכלים והשתייה לפי סוגם, בנחת ובתשומת לב.</span></li>
+    </ol>
+    <h3>הדלקת נר נשמה</h3>
+    <p>מדליקים נר נשמה לכבוד זכרה ולעילוי נשמת <strong>שרה בת מרים</strong>. אין ברכה מיוחדת על הדלקת נר נשמה. אפשר לומר בשעת ההדלקה:</p>
+    <div class="callout" style="text-align:center;font-family:'Frank Ruhl Libre',serif;font-size:1.2rem">
+      הריני מדליק/ה נר זה לעילוי נשמת<br><strong>שרה בת מרים</strong>.<br>
+      יהי רצון שיהיו הדברים והמעשים הטובים שנעשה היום לזכות נשמתה.
+    </div>
+  </section>
+
+  <section id="tehillim" class="card">
+    <div class="section-kicker">תפילה</div>
+    <h2>תהילים קי״ט – לפי אותיות השם ואותיות נשמה</h2>
+    <p>פרק קי״ט מסודר לפי אותיות האלף־בית, ובכל אות שמונה פסוקים. קוראים את האותיות של השם המלא <strong>שרה בת מרים</strong> לפי הסדר, ולאחר מכן את אותיות <strong>נשמה</strong>. אות שחוזרת נקראת שוב.</p>
+    <div class="letters" aria-label="אותיות השם לפי הסדר">
+      <span class="letter">ש</span><span class="letter">ר</span><span class="letter">ה</span><span class="letter">ב</span><span class="letter">ת</span><span class="letter">מ</span><span class="letter">ר</span><span class="letter">י</span><span class="letter">ם = מ</span>
+    </div>
+    <p class="small muted">לאחר מכן מוסיפים את אותיות נשמה:</p>
+    <div class="letters"><span class="letter">נ</span><span class="letter">ש</span><span class="letter">מ</span><span class="letter">ה</span></div>
+
+    <h3>אותיות השם</h3>
+
+    <details>
+      <summary><strong>ש</strong></summary>
+      <div class="text" style="font-family:'Frank Ruhl Libre',serif;font-size:1.15rem;line-height:1.9;margin-top:10px">
+        שָׂרִים רְדָפוּנִי חִנָּם וּמִדְּבָרְךָ פָּחַד לִבִּי׃<br>
+        שָׂשׂ אָנֹכִי עַל־אִמְרָתֶךָ כְּמוֹצֵא שָׁלָל רָב׃<br>
+        שֶׁקֶר שָׂנֵאתִי וַאֲתַעֵבָה תּוֹרָתְךָ אָהָבְתִּי׃<br>
+        שֶׁבַע בַּיּוֹם הִלַּלְתִּיךָ עַל מִשְׁפְּטֵי צִדְקֶךָ׃<br>
+        שָׁלוֹם רָב לְאֹהֲבֵי תוֹרָתֶךָ וְאֵין־לָמוֹ מִכְשׁוֹל׃<br>
+        שִׂבַּרְתִּי לִישׁוּעָתְךָ יְהֹוָה וּמִצְוֺתֶיךָ עָשִׂיתִי׃<br>
+        שָׁמְרָה נַפְשִׁי עֵדֹתֶיךָ וָאֹהֲבֵם מְאֹד׃<br>
+        שָׁמַרְתִּי פִקּוּדֶיךָ וְעֵדֹתֶיךָ כִּי כָל־דְּרָכַי נֶגְדֶּךָ׃
+      </div>
+    </details>
+
+    <details>
+      <summary><strong>ר</strong></summary>
+      <div class="text" style="font-family:'Frank Ruhl Libre',serif;font-size:1.15rem;line-height:1.9;margin-top:10px">
+        רְאֵה־עָנְיִי וְחַלְּצֵנִי כִּי־תוֹרָתְךָ לֹא שָׁכָחְתִּי׃<br>
+        רִיבָה רִיבִי וּגְאָלֵנִי לְאִמְרָתְךָ חַיֵּנִי׃<br>
+        רָחוֹק מֵרְשָׁעִים יְשׁוּעָה כִּי־חֻקֶּיךָ לֹא דָרָשׁוּ׃<br>
+        רַחֲמֶיךָ רַבִּים יְהֹוָה כְּמִשְׁפָּטֶיךָ חַיֵּנִי׃<br>
+        רַבִּים רֹדְפַי וְצָרָי מֵעֵדְוֺתֶיךָ לֹא נָטִיתִי׃<br>
+        רָאִיתִי בֹגְדִים וָאֶתְקוֹטָטָה אֲשֶׁר אִמְרָתְךָ לֹא שָׁמָרוּ׃<br>
+        רְאֵה כִּי־פִקּוּדֶיךָ אָהָבְתִּי יְהֹוָה כְּחַסְדְּךָ חַיֵּנִי׃<br>
+        רֹאשׁ־דְּבָרְךָ אֱמֶת וּלְעוֹלָם כָּל־מִשְׁפַּט צִדְקֶךָ׃
+      </div>
+    </details>
+
+    <details>
+      <summary><strong>ה</strong></summary>
+      <div class="text" style="font-family:'Frank Ruhl Libre',serif;font-size:1.15rem;line-height:1.9;margin-top:10px">
+        הוֹרֵנִי יְהֹוָה דֶּרֶךְ חֻקֶּיךָ וְאֶצְּרֶנָּה עֵקֶב׃<br>
+        הֲבִינֵנִי וְאֶצְּרָה תוֹרָתֶךָ וְאֶשְׁמְרֶנָּה בְכָל־לֵב׃<br>
+        הַדְרִיכֵנִי בִּנְתִיב מִצְוֺתֶיךָ כִּי־בוֹ חָפָצְתִּי׃<br>
+        הַט־לִבִּי אֶל־עֵדְוֺתֶיךָ וְאַל אֶל־בָּצַע׃<br>
+        הַעֲבֵר עֵינַי מֵרְאוֹת שָׁוְא בִּדְרָכֶךָ חַיֵּנִי׃<br>
+        הָקֵם לְעַבְדְּךָ אִמְרָתֶךָ אֲשֶׁר לְיִרְאָתֶךָ׃<br>
+        הַעֲבֵר חֶרְפָּתִי אֲשֶׁר יָגֹרְתִּי כִּי מִשְׁפָּטֶיךָ טוֹבִים׃<br>
+        הִנֵּה תָּאַבְתִּי לְפִקֻּדֶיךָ בְּצִדְקָתְךָ חַיֵּנִי׃
+      </div>
+    </details>
+
+    <details>
+      <summary><strong>ב</strong></summary>
+      <div class="text" style="font-family:'Frank Ruhl Libre',serif;font-size:1.15rem;line-height:1.9;margin-top:10px">
+        בַּמֶּה יְזַכֶּה־נַּעַר אֶת־אָרְחוֹ לִשְׁמֹר כִּדְבָרֶךָ׃<br>
+        בְּכָל־לִבִּי דְרַשְׁתִּיךָ אַל־תַּשְׁגֵּנִי מִמִּצְוֺתֶיךָ׃<br>
+        בְּלִבִּי צָפַנְתִּי אִמְרָתֶךָ לְמַעַן לֹא אֶחֱטָא־לָךְ׃<br>
+        בָּרוּךְ אַתָּה יְהֹוָה לַמְּדֵנִי חֻקֶּיךָ׃<br>
+        בִּשְׂפָתַי סִפַּרְתִּי כֹּל מִשְׁפְּטֵי־פִיךָ׃<br>
+        בְּדֶרֶךְ עֵדְוֺתֶיךָ שַׂשְׂתִּי כְּעַל כָּל־הוֹן׃<br>
+        בְּפִקּוּדֶיךָ אָשִׂיחָה וְאַבִּיטָה אֹרְחֹתֶיךָ׃<br>
+        בְּחֻקֹּתֶיךָ אֶשְׁתַּעֲשָׁע לֹא אֶשְׁכַּח דְּבָרֶךָ׃
+      </div>
+    </details>
+
+    <details>
+      <summary><strong>ת</strong></summary>
+      <div class="text" style="font-family:'Frank Ruhl Libre',serif;font-size:1.15rem;line-height:1.9;margin-top:10px">
+        תִּקְרַב רִנָּתִי לְפָנֶיךָ יְהֹוָה כִּדְבָרְךָ הֲבִינֵנִי׃<br>
+        תָּבוֹא תְחִנָּתִי לְפָנֶיךָ כְּאִמְרָתְךָ הַצִּילֵנִי׃<br>
+        תַּבַּעְנָה שְׂפָתַי תְּהִלָּה כִּי תְלַמְּדֵנִי חֻקֶּיךָ׃<br>
+        תַּעַן לְשׁוֹנִי אִמְרָתֶךָ כִּי כָל־מִצְוֺתֶיךָ צֶדֶק׃<br>
+        תְּהִי־יָדְךָ לְעָזְרֵנִי כִּי פִקּוּדֶיךָ בָחָרְתִּי׃<br>
+        תָּאַבְתִּי לִישׁוּעָתְךָ יְהֹוָה וְתוֹרָתְךָ שַׁעֲשֻׁעָי׃<br>
+        תְּחִי־נַפְשִׁי וּתְהַלֶּלֶךָּ וּמִשְׁפָּטֶךָ יַעְזְרֻנִי׃<br>
+        תָּעִיתִי כְּשֶׂה אֹבֵד בַּקֵּשׁ עַבְדֶּךָ כִּי מִצְוֺתֶיךָ לֹא שָׁכָחְתִּי׃
+      </div>
+    </details>
+
+    <details>
+      <summary><strong>מ</strong></summary>
+      <div class="text" style="font-family:'Frank Ruhl Libre',serif;font-size:1.15rem;line-height:1.9;margin-top:10px">
+        מָה־אָהַבְתִּי תוֹרָתֶךָ כָּל־הַיּוֹם הִיא שִׂיחָתִי׃<br>
+        מֵאֹיְבַי תְּחַכְּמֵנִי מִצְוֺתֶךָ כִּי לְעוֹלָם הִיא־לִי׃<br>
+        מִכָּל־מְלַמְּדַי הִשְׂכַּלְתִּי כִּי עֵדְוֺתֶיךָ שִׂיחָה לִי׃<br>
+        מִזְּקֵנִים אֶתְבּוֹנָן כִּי פִקּוּדֶיךָ נָצָרְתִּי׃<br>
+        מִכָּל־אֹרַח רָע כָּלִאתִי רַגְלַי לְמַעַן אֶשְׁמֹר דְּבָרֶךָ׃<br>
+        מִמִּשְׁפָּטֶיךָ לֹא־סָרְתִּי כִּי־אַתָּה הוֹרֵתָנִי׃<br>
+        מַה־נִּמְלְצוּ לְחִכִּי אִמְרָתֶךָ מִדְּבַשׁ לְפִי׃<br>
+        מִפִּקּוּדֶיךָ אֶתְבּוֹנָן עַל־כֵּן שָׂנֵאתִי כָּל־אֹרַח שָׁקֶר׃
+      </div>
+    </details>
+
+    <details>
+      <summary><strong>ר</strong> (שוב)</summary>
+      <div class="text" style="font-family:'Frank Ruhl Libre',serif;font-size:1.15rem;line-height:1.9;margin-top:10px">
+        רְאֵה־עָנְיִי וְחַלְּצֵנִי כִּי־תוֹרָתְךָ לֹא שָׁכָחְתִּי׃<br>
+        רִיבָה רִיבִי וּגְאָלֵנִי לְאִמְרָתְךָ חַיֵּנִי׃<br>
+        רָחוֹק מֵרְשָׁעִים יְשׁוּעָה כִּי־חֻקֶּיךָ לֹא דָרָשׁוּ׃<br>
+        רַחֲמֶיךָ רַבִּים יְהֹוָה כְּמִשְׁפָּטֶיךָ חַיֵּנִי׃<br>
+        רַבִּים רֹדְפַי וְצָרָי מֵעֵדְוֺתֶיךָ לֹא נָטִיתִי׃<br>
+        רָאִיתִי בֹגְדִים וָאֶתְקוֹטָטָה אֲשֶׁר אִמְרָתְךָ לֹא שָׁמָרוּ׃<br>
+        רְאֵה כִּי־פִקּוּדֶיךָ אָהָבְתִּי יְהֹוָה כְּחַסְדְּךָ חַיֵּנִי׃<br>
+        רֹאשׁ־דְּבָרְךָ אֱמֶת וּלְעוֹלָם כָּל־מִשְׁפַּט צִדְקֶךָ׃
+      </div>
+    </details>
+
+    <details>
+      <summary><strong>י</strong></summary>
+      <div class="text" style="font-family:'Frank Ruhl Libre',serif;font-size:1.15rem;line-height:1.9;margin-top:10px">
+        יָדֶיךָ עָשׂוּנִי וַיְכוֹנְנוּנִי הֲבִינֵנִי וְאֶלְמְדָה מִצְוֺתֶיךָ׃<br>
+        יְרֵאֶיךָ יִרְאוּנִי וְיִשְׂמָחוּ כִּי לִדְבָרְךָ יִחָלְתִּי׃<br>
+        יָדַעְתִּי יְהֹוָה כִּי־צֶדֶק מִשְׁפָּטֶיךָ וֶאֱמוּנָה עִנִּיתָנִי׃<br>
+        יְהִי־נָא חַסְדְּךָ לְנַחֲמֵנִי כְּאִמְרָתְךָ לְעַבְדֶּךָ׃<br>
+        יְבֹאוּנִי רַחֲמֶיךָ וְאֶחְיֶה כִּי־תוֹרָתְךָ שַׁעֲשֻׁעָי׃<br>
+        יֵבֹשׁוּ זֵדִים כִּי־שֶׁקֶר עִוְּתוּנִי אֲנִי אָשִׂיחַ בְּפִקּוּדֶיךָ׃<br>
+        יָשׁוּבוּ לִי יְרֵאֶיךָ וְיֹדְעֵי עֵדֹתֶיךָ׃<br>
+        יְהִי־לִבִּי תָמִים בְּחֻקֶּיךָ לְמַעַן לֹא אֵבוֹשׁ׃
+      </div>
+    </details>
+
+    <details>
+      <summary><strong>ם = מ</strong> (שוב)</summary>
+      <div class="text" style="font-family:'Frank Ruhl Libre',serif;font-size:1.15rem;line-height:1.9;margin-top:10px">
+        מָה־אָהַבְתִּי תוֹרָתֶךָ כָּל־הַיּוֹם הִיא שִׂיחָתִי׃<br>
+        מֵאֹיְבַי תְּחַכְּמֵנִי מִצְוֺתֶךָ כִּי לְעוֹלָם הִיא־לִי׃<br>
+        מִכָּל־מְלַמְּדַי הִשְׂכַּלְתִּי כִּי עֵדְוֺתֶיךָ שִׂיחָה לִי׃<br>
+        מִזְּקֵנִים אֶתְבּוֹנָן כִּי פִקּוּדֶיךָ נָצָרְתִּי׃<br>
+        מִכָּל־אֹרַח רָע כָּלִאתִי רַגְלַי לְמַעַן אֶשְׁמֹר דְּבָרֶךָ׃<br>
+        מִמִּשְׁפָּטֶיךָ לֹא־סָרְתִּי כִּי־אַתָּה הוֹרֵתָנִי׃<br>
+        מַה־נִּמְלְצוּ לְחִכִּי אִמְרָתֶךָ מִדְּבַשׁ לְפִי׃<br>
+        מִפִּקּוּדֶיךָ אֶתְבּוֹנָן עַל־כֵּן שָׂנֵאתִי כָּל־אֹרַח שָׁקֶר׃
+      </div>
+    </details>
+
+    <h3>אותיות נשמה</h3>
+
+    <details>
+      <summary><strong>נ</strong></summary>
+      <div class="text" style="font-family:'Frank Ruhl Libre',serif;font-size:1.15rem;line-height:1.9;margin-top:10px">
+        נֵר־לְרַגְלִי דְבָרֶךָ וְאוֹר לִנְתִיבָתִי׃<br>
+        נִשְׁבַּעְתִּי וָאֲקַיֵּמָה לִשְׁמֹר מִשְׁפְּטֵי צִדְקֶךָ׃<br>
+        נַעֲנֵיתִי עַד־מְאֹד יְהֹוָה חַיֵּנִי כִדְבָרֶךָ׃<br>
+        נִדְבוֹת פִּי רְצֵה־נָא יְהֹוָה וּמִשְׁפָּטֶיךָ לַמְּדֵנִי׃<br>
+        נַפְשִׁי בְכַפִּי תָמִיד וְתוֹרָתְךָ לֹא שָׁכָחְתִּי׃<br>
+        נָתְנוּ רְשָׁעִים פַּח לִי וּמִפִּקּוּדֶיךָ לֹא תָעִיתִי׃<br>
+        נָחַלְתִּי עֵדְוֺתֶיךָ לְעוֹלָם כִּי־שְׂשׂוֹן לִבִּי הֵמָּה׃<br>
+        נָטִיתִי לִבִּי לַעֲשׂוֹת חֻקֶּיךָ לְעוֹלָם עֵקֶב׃
+      </div>
+    </details>
+
+    <details>
+      <summary><strong>ש</strong></summary>
+      <div class="text" style="font-family:'Frank Ruhl Libre',serif;font-size:1.15rem;line-height:1.9;margin-top:10px">
+        שָׂרִים רְדָפוּנִי חִנָּם וּמִדְּבָרְךָ פָּחַד לִבִּי׃<br>
+        שָׂשׂ אָנֹכִי עַל־אִמְרָתֶךָ כְּמוֹצֵא שָׁלָל רָב׃<br>
+        שֶׁקֶר שָׂנֵאתִי וַאֲתַעֵבָה תּוֹרָתְךָ אָהָבְתִּי׃<br>
+        שֶׁבַע בַּיּוֹם הִלַּלְתִּיךָ עַל מִשְׁפְּטֵי צִדְקֶךָ׃<br>
+        שָׁלוֹם רָב לְאֹהֲבֵי תוֹרָתֶךָ וְאֵין־לָמוֹ מִכְשׁוֹל׃<br>
+        שִׂבַּרְתִּי לִישׁוּעָתְךָ יְהֹוָה וּמִצְוֺתֶיךָ עָשִׂיתִי׃<br>
+        שָׁמְרָה נַפְשִׁי עֵדֹתֶיךָ וָאֹהֲבֵם מְאֹד׃<br>
+        שָׁמַרְתִּי פִקּוּדֶיךָ וְעֵדֹתֶיךָ כִּי כָל־דְּרָכַי נֶגְדֶּךָ׃
+      </div>
+    </details>
+
+    <details>
+      <summary><strong>מ</strong></summary>
+      <div class="text" style="font-family:'Frank Ruhl Libre',serif;font-size:1.15rem;line-height:1.9;margin-top:10px">
+        מָה־אָהַבְתִּי תוֹרָתֶךָ כָּל־הַיּוֹם הִיא שִׂיחָתִי׃<br>
+        מֵאֹיְבַי תְּחַכְּמֵנִי מִצְוֺתֶךָ כִּי לְעוֹלָם הִיא־לִי׃<br>
+        מִכָּל־מְלַמְּדַי הִשְׂכַּלְתִּי כִּי עֵדְוֺתֶיךָ שִׂיחָה לִי׃<br>
+        מִזְּקֵנִים אֶתְבּוֹנָן כִּי פִקּוּדֶיךָ נָצָרְתִּי׃<br>
+        מִכָּל־אֹרַח רָע כָּלִאתִי רַגְלַי לְמַעַן אֶשְׁמֹר דְּבָרֶךָ׃<br>
+        מִמִּשְׁפָּטֶיךָ לֹא־סָרְתִּי כִּי־אַתָּה הוֹרֵתָנִי׃<br>
+        מַה־נִּמְלְצוּ לְחִכִּי אִמְרָתֶךָ מִדְּבַשׁ לְפִי׃<br>
+        מִפִּקּוּדֶיךָ אֶתְבּוֹנָן עַל־כֵּן שָׂנֵאתִי כָּל־אֹרַח שָׁקֶר׃
+      </div>
+    </details>
+
+    <details>
+      <summary><strong>ה</strong></summary>
+      <div class="text" style="font-family:'Frank Ruhl Libre',serif;font-size:1.15rem;line-height:1.9;margin-top:10px">
+        הוֹרֵנִי יְהֹוָה דֶּרֶךְ חֻקֶּיךָ וְאֶצְּרֶנָּה עֵקֶב׃<br>
+        הֲבִינֵנִי וְאֶצְּרָה תוֹרָתֶךָ וְאֶשְׁמְרֶנָּה בְכָל־לֵב׃<br>
+        הַדְרִיכֵנִי בִּנְתִיב מִצְוֺתֶיךָ כִּי־בוֹ חָפָצְתִּי׃<br>
+        הַט־לִבִּי אֶל־עֵדְוֺתֶיךָ וְאַל אֶל־בָּצַע׃<br>
+        הַעֲבֵר עֵינַי מֵרְאוֹת שָׁוְא בִּדְרָכֶךָ חַיֵּנִי׃<br>
+        הָקֵם לְעַבְדְּךָ אִמְרָתֶךָ אֲשֶׁר לְיִרְאָתֶךָ׃<br>
+        הַעֲבֵר חֶרְפָּתִי אֲשֶׁר יָגֹרְתִּי כִּי מִשְׁפָּטֶיךָ טוֹבִים׃<br>
+        הִנֵּה תָּאַבְתִּי לְפִקֻּדֶיךָ בְּצִדְקָתְךָ חַיֵּנִי׃
+      </div>
+    </details>
+
+    <p class="small muted" style="margin-top:18px">הטקסט לפי נוסח המסורה. אפשר גם לפתוח את הפרק המלא ב־Sefaria:</p>
+    <a class="btn" href="https://www.sefaria.org/Psalms.119?lang=he" target="_blank" rel="noopener">פתיחת תהילים קי״ט המלא ↗</a>
+  </section>
+
+  <section id="mishnah" class="card">
+    <div class="section-kicker">לימוד תורה</div>
+    <h2>משניות לעילוי נשמתה</h2>
+    <p>לומדים משניות לפי אותיות השם <strong>שרה בת מרים</strong>, ולאחר מכן משניות אותיות <strong>נשמה</strong> ממסכת מקוואות פרק ז׳.</p>
+    <p class="small muted">האותיות הסופיות נחשבות כאות הרגילה (ם = מ). אות שחוזרת נלמדת שוב. את הלימוד אפשר לקיים גם ללא מניין.</p>
+
+    <h3>אותיות השם</h3>
+    <div class="letters" aria-label="אותיות השם">
+      <span class="letter">ש</span><span class="letter">ר</span><span class="letter">ה</span><span class="letter">ב</span><span class="letter">ת</span><span class="letter">מ</span><span class="letter">ר</span><span class="letter">י</span><span class="letter">ם = מ</span>
+    </div>
+
+    <details>
+      <summary><strong>ש</strong> – ברכות פרק ז׳</summary>
+      <div class="text" style="font-family:'Frank Ruhl Libre',serif;font-size:1.12rem;line-height:1.9;margin-top:10px">
+        שְׁלֹשָׁה שֶׁאָכְלוּ כְאֶחָד, חַיָּבִים לְזַמֵּן. אָכַל דְּמַאי, וּמַעֲשֵׂר רִאשׁוֹן שֶׁנִּטְּלָה תְּרוּמָתוֹ, וּמַעֲשֵׂר שֵׁנִי וְהֶקְדֵּשׁ שֶׁנִּפְדּוּ, וְהַשַּׁמָּשׁ שֶׁאָכַל כַּזַּיִת, וְהַכּוּתִי – מְזַמְּנִין עֲלֵיהֶן. אֲבָל אָכַל טֶבֶל, וּמַעֲשֵׂר רִאשׁוֹן שֶׁלֹּא נִטְּלָה תְּרוּמָתוֹ, וּמַעֲשֵׂר שֵׁנִי וְהֶקְדֵּשׁ שֶׁלֹּא נִפְדּוּ, וְהַשַּׁמָּשׁ שֶׁאָכַל פָּחוֹת מִכַּזַּיִת, וְהַנָּכְרִי – אֵין מְזַמְּנִין עֲלֵיהֶן.
+      </div>
+      <p class="small muted" style="margin-top:8px"><a href="https://www.sefaria.org/Mishnah_Berakhot.7?lang=he" target="_blank" rel="noopener">פרק מלא ב־Sefaria ↗</a></p>
+    </details>
+
+    <details>
+      <summary><strong>ר</strong> – ראש השנה פרק ג׳</summary>
+      <div class="text" style="font-family:'Frank Ruhl Libre',serif;font-size:1.12rem;line-height:1.9;margin-top:10px">
+        רָאוּהוּ בֵית דִּין וְכָל יִשְׂרָאֵל, נֶחְקְרוּ הָעֵדִים, וְלֹא הִסְפִּיקוּ לוֹמַר מְקֻדָּשׁ עַד שֶׁחָשֵׁכָה – הֲרֵי זֶה מְעֻבָּר. רָאוּהוּ בֵית דִּין בִּלְבַד, יַעַמְדוּ שְׁנַיִם וְיָעִידוּ בִפְנֵיהֶם, וְיֹאמְרוּ מְקֻדָּשׁ מְקֻדָּשׁ. רָאוּהוּ שְׁלֹשָׁה וְהֵן בֵּית דִּין, יַעַמְדוּ שְׁנַיִם וְיוֹשִׁיבוּ מֵחֲבֵרֵיהֶם אֵצֶל הַיָּחִיד, וְיָעִידוּ בִפְנֵיהֶם, וְיֹאמְרוּ מְקֻדָּשׁ מְקֻדָּשׁ, שֶׁאֵין הַיָּחִיד נֶאֱמָן עַל יְדֵי עַצְמוֹ.
+      </div>
+      <p class="small muted" style="margin-top:8px"><a href="https://www.sefaria.org/Mishnah_Rosh_Hashanah.3?lang=he" target="_blank" rel="noopener">פרק מלא ב־Sefaria ↗</a></p>
+    </details>
+
+    <details>
+      <summary><strong>ה</strong> – ברכות פרק ט׳</summary>
+      <div class="text" style="font-family:'Frank Ruhl Libre',serif;font-size:1.12rem;line-height:1.9;margin-top:10px">
+        הָרוֹאֶה מָקוֹם שֶׁנַּעֲשׂוּ בּוֹ נִסִּים לְיִשְׂרָאֵל, אוֹמֵר: בָּרוּךְ שֶׁעָשָׂה נִסִּים לַאֲבוֹתֵינוּ בַּמָּקוֹם הַזֶּה. מָקוֹם שֶׁנֶּעֶקְרָה מִמֶּנּוּ עֲבוֹדָה זָרָה, אוֹמֵר: בָּרוּךְ שֶׁעָקַר עֲבוֹדָה זָרָה מֵאַרְצֵנוּ. עַל הַזִּיקִין, וְעַל הַזְּוָעוֹת, וְעַל הָרְעָמִים, וְעַל הָרוּחוֹת וְעַל הַבְּרָקִים, אוֹמֵר: בָּרוּךְ שֶׁכֹּחוֹ וּגְבוּרָתוֹ מָלֵא עוֹלָם. עַל הֶהָרִים, וְעַל הַגְּבָעוֹת, וְעַל הַיַּמִּים, וְעַל הַנְּהָרוֹת וְעַל הַמִּדְבָּרוֹת, אוֹמֵר: בָּרוּךְ עוֹשֵׂה בְּרֵאשִׁית.
+      </div>
+      <p class="small muted" style="margin-top:8px"><a href="https://www.sefaria.org/Mishnah_Berakhot.9?lang=he" target="_blank" rel="noopener">פרק מלא ב־Sefaria ↗</a></p>
+    </details>
+
+    <details>
+      <summary><strong>ב</strong> – שבת פרק ה׳</summary>
+      <div class="text" style="font-family:'Frank Ruhl Libre',serif;font-size:1.12rem;line-height:1.9;margin-top:10px">
+        בַּמֶּה בְהֵמָה יוֹצְאָה וּבַמֶּה אֵינָהּ יוֹצְאָה. יוֹצֵא הַגָּמָל בְּאַפְסָר, וְנָאקָה בַחֲטָם, וְלֻבְדְּקֵי בִרְסָן, וְסוּס בְּשֵׁיר, וְכָל בַּעֲלֵי הַשֵּׁיר יוֹצְאִין בְּשֵׁיר וְנִמְשָׁכִין בְּשֵׁיר, וּמַזִּין עֲלֵיהֶן וְטוֹבְלִין בִּמְקוֹמָן.
+      </div>
+      <p class="small muted" style="margin-top:8px"><a href="https://www.sefaria.org/Mishnah_Shabbat.5?lang=he" target="_blank" rel="noopener">פרק מלא ב־Sefaria ↗</a></p>
+    </details>
+
+    <details>
+      <summary><strong>ת</strong> – ברכות פרק ד׳</summary>
+      <div class="text" style="font-family:'Frank Ruhl Libre',serif;font-size:1.12rem;line-height:1.9;margin-top:10px">
+        תְּפִלַּת הַשַּׁחַר עַד חֲצוֹת. רַבִּי יְהוּדָה אוֹמֵר: עַד אַרְבַּע שָׁעוֹת. תְּפִלַּת הַמִּנְחָה עַד הָעֶרֶב. רַבִּי יְהוּדָה אוֹמֵר: עַד פְּלַג הַמִּנְחָה. תְּפִלַּת הָעֶרֶב אֵין לָהּ קֶבַע. וְשֶׁל מוּסָפִין כָּל הַיּוֹם. רַבִּי יְהוּדָה אוֹמֵר: עַד שֶׁבַע שָׁעוֹת.
+      </div>
+      <p class="small muted" style="margin-top:8px"><a href="https://www.sefaria.org/Mishnah_Berakhot.4?lang=he" target="_blank" rel="noopener">פרק מלא ב־Sefaria ↗</a></p>
+    </details>
+
+    <details>
+      <summary><strong>מ</strong> – ברכות פרק ג׳</summary>
+      <div class="text" style="font-family:'Frank Ruhl Libre',serif;font-size:1.12rem;line-height:1.9;margin-top:10px">
+        מִי שֶׁמֵּתוֹ מֻטָּל לְפָנָיו, פָּטוּר מִקְּרִיאַת שְׁמַע וּמִן הַתְּפִלָּה וּמִן הַתְּפִלִּין. נוֹשְׂאֵי הַמִּטָּה וְחִלּוּפֵיהֶן וְחִלּוּפֵי חִלּוּפֵיהֶן, אֶת שֶׁלִּפְנֵי הַמִּטָּה וְאֶת שֶׁלְּאַחַר הַמִּטָּה – אֶת שֶׁלִּפְנֵי הַמִּטָּה צֹרֶךְ בָּהֶם, פְּטוּרִים; וְאֶת שֶׁלְּאַחַר הַמִּטָּה אֵין צֹרֶךְ בָּהֶם, חַיָּבִים. אֵלּוּ וָאֵלּוּ פְּטוּרִים מִן הַתְּפִלָּה.
+      </div>
+      <p class="small muted" style="margin-top:8px"><a href="https://www.sefaria.org/Mishnah_Berakhot.3?lang=he" target="_blank" rel="noopener">פרק מלא ב־Sefaria ↗</a></p>
+    </details>
+
+    <details>
+      <summary><strong>ר</strong> (שוב) – ראש השנה פרק ג׳</summary>
+      <div class="text" style="font-family:'Frank Ruhl Libre',serif;font-size:1.12rem;line-height:1.9;margin-top:10px">
+        רָאוּהוּ בֵית דִּין וְכָל יִשְׂרָאֵל, נֶחְקְרוּ הָעֵדִים, וְלֹא הִסְפִּיקוּ לוֹמַר מְקֻדָּשׁ עַד שֶׁחָשֵׁכָה – הֲרֵי זֶה מְעֻבָּר. רָאוּהוּ בֵית דִּין בִּלְבַד, יַעַמְדוּ שְׁנַיִם וְיָעִידוּ בִפְנֵיהֶם, וְיֹאמְרוּ מְקֻדָּשׁ מְקֻדָּשׁ. רָאוּהוּ שְׁלֹשָׁה וְהֵן בֵּית דִּין, יַעַמְדוּ שְׁנַיִם וְיוֹשִׁיבוּ מֵחֲבֵרֵיהֶם אֵצֶל הַיָּחִיד, וְיָעִידוּ בִפְנֵיהֶם, וְיֹאמְרוּ מְקֻדָּשׁ מְקֻדָּשׁ, שֶׁאֵין הַיָּחִיד נֶאֱמָן עַל יְדֵי עַצְמוֹ.
+      </div>
+      <p class="small muted" style="margin-top:8px"><a href="https://www.sefaria.org/Mishnah_Rosh_Hashanah.3?lang=he" target="_blank" rel="noopener">פרק מלא ב־Sefaria ↗</a></p>
+    </details>
+
+    <details>
+      <summary><strong>י</strong> – שבת פרק א׳</summary>
+      <div class="text" style="font-family:'Frank Ruhl Libre',serif;font-size:1.12rem;line-height:1.9;margin-top:10px">
+        יְצִיאוֹת הַשַּׁבָּת שְׁתַּיִם שֶׁהֵן אַרְבַּע בִּפְנִים, וּשְׁתַּיִם שֶׁהֵן אַרְבַּע בַּחוּץ. כֵּיצַד? הֶעָנִי עוֹמֵד בַּחוּץ וּבַעַל הַבַּיִת בִּפְנִים, פָּשַׁט הֶעָנִי אֶת יָדוֹ לִפְנִים וְנָתַן לְתוֹךְ יָדוֹ שֶׁל בַּעַל הַבַּיִת, אוֹ שֶׁנָּטַל מִתּוֹכָהּ וְהוֹצִיא – הֶעָנִי חַיָּב וּבַעַל הַבַּיִת פָּטוּר. פָּשַׁט בַּעַל הַבַּיִת אֶת יָדוֹ לַחוּץ וְנָתַן לְתוֹךְ יָדוֹ שֶׁל עָנִי, אוֹ שֶׁנָּטַל מִתּוֹכָהּ וְהִכְנִיס – בַּעַל הַבַּיִת חַיָּב וְהֶעָנִי פָּטוּר.
+      </div>
+      <p class="small muted" style="margin-top:8px"><a href="https://www.sefaria.org/Mishnah_Shabbat.1?lang=he" target="_blank" rel="noopener">פרק מלא ב־Sefaria ↗</a></p>
+    </details>
+
+    <details>
+      <summary><strong>ם = מ</strong> (שוב) – ברכות פרק ג׳</summary>
+      <div class="text" style="font-family:'Frank Ruhl Libre',serif;font-size:1.12rem;line-height:1.9;margin-top:10px">
+        מִי שֶׁמֵּתוֹ מֻטָּל לְפָנָיו, פָּטוּר מִקְּרִיאַת שְׁמַע וּמִן הַתְּפִלָּה וּמִן הַתְּפִלִּין. נוֹשְׂאֵי הַמִּטָּה וְחִלּוּפֵיהֶן וְחִלּוּפֵי חִלּוּפֵיהֶן, אֶת שֶׁלִּפְנֵי הַמִּטָּה וְאֶת שֶׁלְּאַחַר הַמִּטָּה – אֶת שֶׁלִּפְנֵי הַמִּטָּה צֹרֶךְ בָּהֶם, פְּטוּרִים; וְאֶת שֶׁלְּאַחַר הַמִּטָּה אֵין צֹרֶךְ בָּהֶם, חַיָּבִים. אֵלּוּ וָאֵלּוּ פְּטוּרִים מִן הַתְּפִלָּה.
+      </div>
+      <p class="small muted" style="margin-top:8px"><a href="https://www.sefaria.org/Mishnah_Berakhot.3?lang=he" target="_blank" rel="noopener">פרק מלא ב־Sefaria ↗</a></p>
+    </details>
+
+    <h3>אותיות נשמה</h3>
+    <div class="letters"><span class="letter">נ</span><span class="letter">ש</span><span class="letter">מ</span><span class="letter">ה</span></div>
+    <p class="small muted">המשניות ד׳–ז׳ במקוואות פרק ז׳ פותחות באותיות נ־ש־מ־ה.</p>
+
+    <details>
+      <summary><strong>נ</strong> – מקוואות ז׳ משנה ד׳</summary>
+      <div class="text" style="font-family:'Frank Ruhl Libre',serif;font-size:1.12rem;line-height:1.9;margin-top:10px">
+        נָפַל לְתוֹכוֹ יַיִן אוֹ מֹחַל וְשִׁנּוּ מִקְצַת מַרְאָיו, אִם אֵין בּוֹ מַרְאֵה מַיִם אַרְבָּעִים סְאָה – הֲרֵי זֶה לֹא יִטְבּוֹל בּוֹ.
+      </div>
+    </details>
+
+    <details>
+      <summary><strong>ש</strong> – מקוואות ז׳ משנה ה׳</summary>
+      <div class="text" style="font-family:'Frank Ruhl Libre',serif;font-size:1.12rem;line-height:1.9;margin-top:10px">
+        שְׁלֹשָׁה לֹגִין מַיִם, וְנָפַל לְתוֹכָן קֻרְטוֹב יַיִן, וַהֲרֵי מַרְאֵיהֶן כְּמַרְאֵה הַיַּיִן, וְנָפְלוּ לַמִּקְוֶה – לֹא פְסָלוּהוּ.<br>
+        שְׁלֹשָׁה לֹגִין מַיִם חָסֵר קֻרְטוֹב, וְנָפַל לְתוֹכָן קֻרְטוֹב חָלָב, וַהֲרֵי מַרְאֵיהֶן כְּמַרְאֵה הַמַּיִם, וְנָפְלוּ לַמִּקְוֶה – לֹא פְסָלוּהוּ.<br>
+        רַבִּי יוֹחָנָן בֶּן נוּרִי אוֹמֵר: הַכֹּל הוֹלֵךְ אַחַר הַמַּרְאֶה.
+      </div>
+    </details>
+
+    <details>
+      <summary><strong>מ</strong> – מקוואות ז׳ משנה ו׳</summary>
+      <div class="text" style="font-family:'Frank Ruhl Libre',serif;font-size:1.12rem;line-height:1.9;margin-top:10px">
+        מִקְוֶה שֶׁיֵּשׁ בּוֹ אַרְבָּעִים סְאָה מְכֻוָּנוֹת, יָרְדוּ שְׁנַיִם וְטָבְלוּ זֶה אַחַר זֶה – הָרִאשׁוֹן טָהוֹר וְהַשֵּׁנִי טָמֵא.<br>
+        רַבִּי יְהוּדָה אוֹמֵר: אִם הָיוּ רַגְלָיו שֶׁל רִאשׁוֹן נוֹגְעוֹת בַּמַּיִם, אַף הַשֵּׁנִי טָהוֹר.<br>
+        הִטְבִּיל בּוֹ אֶת הַסְּגוֹס וְהֶעֱלָהוּ, מִקְצָתוֹ נוֹגֵעַ בַּמַּיִם – טָהוֹר.<br>
+        הַכַּר וְהַכֶּסֶת שֶׁלְּעוֹר, כֵּיוָן שֶׁהִגְבִּיהַּ שִׂפְתוֹתֵיהֶם מִן הַמַּיִם – הַמַּיִם שֶׁבְּתוֹכָן שְׁאוּבִין.<br>
+        כֵּיצַד יַעֲשֶׂה? מַטְבִּילָן וּמַעֲלֶה אוֹתָם דֶּרֶךְ שׁוּלֵיהֶם.
+      </div>
+    </details>
+
+    <details>
+      <summary><strong>ה</strong> – מקוואות ז׳ משנה ז׳</summary>
+      <div class="text" style="font-family:'Frank Ruhl Libre',serif;font-size:1.12rem;line-height:1.9;margin-top:10px">
+        הִטְבִּיל בּוֹ אֶת הַמִּטָּה, אַף עַל פִּי שֶׁרַגְלֶיהָ שׁוֹקְעוֹת בַּטִּיט הֶעָבֶה – טְהוֹרָה, מִפְּנֵי שֶׁהַמַּיִם מְקַדְּמִין.<br>
+        מִקְוֶה שֶׁמֵּימָיו מְרוּדָּדִין, כּוֹבֵשׁ אֲפִלּוּ חֲבִילֵי עֵצִים, אֲפִלּוּ חֲבִילֵי קָנִים, כְּדֵי שֶׁיִּתְפְּחוּ הַמַּיִם, וְיוֹרֵד וְטוֹבֵל.<br>
+        מַחַט שֶׁהִיא נְתוּנָה עַל מַעֲלוֹת הַמְּעָרָה, הָיָה מוֹלִיךְ וּמֵבִיא בַּמַּיִם, כֵּיוָן שֶׁעָבַר עָלֶיהָ הַגַּל – טְהוֹרָה.
+      </div>
+    </details>
+
+    <p class="small muted" style="margin-top:18px">לפרקים המלאים:</p>
+    <a class="btn" href="https://www.sefaria.org/Mishnah_Mikvaot.7?lang=he" target="_blank" rel="noopener">מקוואות פרק ז׳ ב־Sefaria ↗</a>
+  </section>
+
+  <section id="torah" class="card">
+    <div class="section-kicker">מחשבה וזיכרון</div>
+    <h2>דבר תורה קצר – האור שאדם משאיר אחריו</h2>
+    <p class="lead"><strong>״נֵר ה׳ נִשְׁמַת אָדָם״</strong> (משלי כ׳, כ״ז).</p>
+    <p>נר קטן יכול להאיר חדר שלם. הוא אינו צריך להיות גדול או רועש; די בכך שהוא דולק ומפיץ אור סביבו. כך גם נשמתו של אדם – והאור שאדם משאיר אחריו אינו נמדד רק בשנים שבהן היה איתנו, אלא גם בטוב שהעניק, בערכים שהנחיל ובאנשים שהושפעו ממנו.</p>
+    <p>גם לאחר שאדם הולך לעולמו, הדברים הטובים שהעניק ממשיכים לחיות: במילים שאנחנו זוכרים, במנהגים שעברו במשפחה, במעשי החסד שלמדנו ממנו ובאהבה שהוא השאיר בלבבות.</p>
+    <p>לכן, כשאנחנו מדליקים היום נר לעילוי נשמת סבתא שרה בת מרים, אנחנו לא רק נזכרים באור שהיה. אנחנו יכולים גם להוסיף אור משלנו – ללמוד משהו לזכותה, לתת צדקה, לעשות מעשה טוב, או להעביר הלאה תכונה טובה שאפיינה אותה.</p>
+    <p><strong>זו אולי הדרך היפה ביותר להמשיך את זכרה: להפוך את הגעגוע למעשה טוב, ואת הזיכרון לאור שממשיך לעבור מדור לדור.</strong></p>
+  </section>
+
+  <section id="blessings" class="card">
+    <div class="section-kicker">סביב שולחן המשפחה</div>
+    <h2>ברכות על המאכלים והשתייה</h2>
+    <p>מברכים לפני האכילה והשתייה לפי סוג המאכל. הברכות נאמרות על ידי כל אחד לעצמו, בהתאם למה שהוא אוכל או שותה.</p>
+    <div class="prayer-list">
+      <div class="prayer"><strong>בורא מיני מזונות</strong><span class="muted small">עוגות, עוגיות, בורקס ומאפים מסוימים.</span><div class="text">בָּרוּךְ אַתָּה ה׳ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, בּוֹרֵא מִינֵי מְזוֹנוֹת.</div></div>
+      <div class="prayer"><strong>בורא פרי הגפן</strong><span class="muted small">יין ומיץ ענבים.</span><div class="text">בָּרוּךְ אַתָּה ה׳ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, בּוֹרֵא פְּרִי הַגָּפֶן.</div></div>
+      <div class="prayer"><strong>בורא פרי העץ</strong><span class="muted small">תפוחים, ענבים, תמרים ואגוזים.</span><div class="text">בָּרוּךְ אַתָּה ה׳ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, בּוֹרֵא פְּרִי הָעֵץ.</div></div>
+      <div class="prayer"><strong>בורא פרי האדמה</strong><span class="muted small">ירקות, אבטיח, תותים ותפוחי אדמה.</span><div class="text">בָּרוּךְ אַתָּה ה׳ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, בּוֹרֵא פְּרִי הָאֲדָמָה.</div></div>
+      <div class="prayer"><strong>שהכול נהיה בדברו</strong><span class="muted small">מים, קפה, בשר, דגים, ביצים ומוצרי חלב.</span><div class="text">בָּרוּךְ אַתָּה ה׳ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, שֶׁהַכֹּל נִהְיָה בִּדְבָרוֹ.</div></div>
+    </div>
+    <details>
+      <summary>כמה דגשים חשובים על הברכות</summary>
+      <ul>
+        <li>אין צורך לאכול מכל חמש הקטגוריות; מברכים רק על מה שאוכלים או שותים.</li>
+        <li>אם כמה מאכלים מאותה ברכה מונחים לפני הסועד, בדרך כלל ברכה אחת פוטרת את כולם, בכפוף לדיני קדימה וכוונה.</li>
+        <li>על יין יש דיני קדימה מיוחדים, והוא עשוי לפטור משקאות אחרים בהתאם לנסיבות.</li>
+        <li>יש לברר את הברכה המתאימה במאכלים מורכבים, כגון עוגה, פסטה, סלט פירות או מאכל שיש בו כמה מרכיבים.</li>
+        <li>ברכה אחרונה תלויה בסוג המאכל, בכמות ובזמן האכילה. ברכת המזון נאמרת לאחר אכילת לחם בכמות המחייבת.</li>
+      </ul>
+      <p class="small muted">הדוגמאות הן כלליות בלבד. במקרה של ספק הלכתי, נוהגים לפי פסיקת הרב והמנהג המשפחתי.</p>
+    </details>
+  </section>
+
+  <section class="memory" id="memories">
+    <div class="section-kicker" style="color:#d3b783">הזיכרונות שנשארים איתנו</div>
+    <h2>רגעים עם סבתא שרה</h2>
+    <p>תמונות, רגעים קטנים וסיפורים שנרצה לשמור קרוב ללב.</p>
+    <div id="gallery" class="gallery" aria-live="polite">
+      <div class="empty-gallery">כאן יופיעו התמונות שתוסיפו לתיקיית photos בפרויקט.</div>
+    </div>
+  </section>
+
+  <section class="card">
+    <div class="section-kicker">לוקחים איתנו הלאה</div>
+    <h2>מעשה טוב לעילוי נשמתה</h2>
+    <p>כל אחד מבני המשפחה מוזמן לבחור מעשה קטן וטוב לזכות נשמת שרה בת מרים: צדקה, עזרה למישהו, לימוד תורה, תפילה, ביקור אצל אדם בודד או כל מעשה חסד אחר.</p>
+    <div class="callout">יהי רצון שהלימוד, התפילות, הצדקה והמעשים הטובים יהיו לעילוי נשמת <strong>שרה בת מרים</strong>, ותהא נשמתה צרורה בצרור החיים. אמן.</div>
+  </section>
+
+  <div class="no-print" style="text-align:center;margin:28px 0">
+    <button class="btn" onclick="window.print()">הדפסת סדר האזכרה / שמירה כ־PDF</button>
+  </div>
+</main>
+<footer>
+  לעילוי נשמת שרה בת מרים · יהי זכרה ברוך
+</footer>
+
+<script>
+(async function loadGallery(){
+  const target = document.getElementById('gallery');
+  try {
+    const response = await fetch('photos/photos.json', {cache:'no-store'});
+    if (!response.ok) throw new Error('photos.json not found');
+    const photos = await response.json();
+    if (!Array.isArray(photos) || photos.length === 0) return;
+    target.innerHTML = '';
+    photos.forEach(item => {
+      if (!item || !item.src) return;
+      const figure = document.createElement('figure');
+      const img = document.createElement('img');
+      img.src = 'photos/' + item.src;
+      img.alt = item.alt || 'תמונה לזכר סבתא שרה';
+      img.loading = 'lazy';
+      figure.appendChild(img);
+      if (item.caption) {
+        const caption = document.createElement('figcaption');
+        caption.textContent = item.caption;
+        figure.appendChild(caption);
+      }
+      target.appendChild(figure);
+    });
+    if (!target.children.length) target.innerHTML = '<div class="empty-gallery">עדיין לא נוספו תמונות.</div>';
+  } catch (error) {
+    target.innerHTML = '<div class="empty-gallery">כאן יופיעו התמונות שתוסיפו לתיקיית photos בפרויקט.</div>';
+  }
+})();
+</script>
+</body>
+</html>
